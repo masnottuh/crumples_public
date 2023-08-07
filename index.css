@@ -1,7 +1,7 @@
 body,html {
     padding:0px;
     margin:0px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Helvetica';
     font-weight:bold;
     color:#fff;
     background:rgb(0, 0, 0);
@@ -90,7 +90,7 @@ body,html {
 }
 #portfolio {
     width:100%;
-    padding-top:1em;
+    padding-top:0px;
     position: relative;
 }
 #portfolio div h1 {
