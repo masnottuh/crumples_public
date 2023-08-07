@@ -87,10 +87,10 @@ body,html {
     font-size:50px;
     width:60%;
 }
-#portfolio {
+/* #portfolio {
     width:100%;
     padding-top:5%;
-}
+} */
 #portfolio div h1 {
     font-size:40px;
     background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
