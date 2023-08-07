@@ -229,6 +229,8 @@ body,html {
         border-radius:0px;
         height:80vh;
         background-size:cover;
+        align-self: center;
+        align-items: center;
     }
     #tagline {
         width:90%;
