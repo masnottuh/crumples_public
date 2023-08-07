@@ -105,8 +105,8 @@ body,html {
     font-family: 'Comfortaa', cursive;
 }
 #skills {
-    margin:4vh 0px !important;
-    padding:2vh 0px !important;
+    width:100%;
+    text-align:center;
 }
 #work {
     margin:4vh 0px !important;
