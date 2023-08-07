@@ -88,8 +88,8 @@ body,html {
     width:60%;
 }
 #portfolio {
-    width:80%;
-    padding:2% 10%;
+    width:100%;
+    padding-top:20%;
 }
 #portfolio div h1 {
     font-size:40px;
