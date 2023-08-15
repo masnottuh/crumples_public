@@ -10,6 +10,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <script>window.HELP_IMPROVE_VIDEOJS = false;</script>
+    <link href="//vjs.zencdn.net/8.3.0/video-js.min.css" rel="stylesheet">
+    <script src="//vjs.zencdn.net/8.3.0/video.min.js"></script>
 </head>
 <body>
     <div id="loading">
@@ -30,6 +33,24 @@
                     <source type="video/webm" src="content/supplemental_video_one.mp4">
                     </video>
 
+                    <video
+                    id="player"
+                    class="video-js"
+                    controls
+                    preload="auto"
+                    data-setup='{}'>
+                    <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
+                    <source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>
+                    <source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source>
+                    <p class="vjs-no-js">
+                        To view this video please enable JavaScript, and consider upgrading to a
+                        web browser that
+                        <a href="content/supplemental_video_one.mp4" target="_blank">
+                        supports HTML5 video
+                        </a>
+                    </p>
+                    </video>
+
                  </div> 
              </div> 
 
@@ -37,8 +58,6 @@
                 <div>
                 <h3>supplemental video two <a href="content/supplemental_video_two.mp4" download>(Download)</a></h3>
                 <video crossorigin="anonymous" preload="auto" style="width: 40%; height: auto;" id="supplemental_video_2" tabindex="-1"><source src="content/supplemental_video_two.mp4" type="video/mp4"></video>
-                </video>
-
                 </div> 
             </div> 
 
